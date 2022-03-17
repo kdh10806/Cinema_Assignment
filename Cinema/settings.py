@@ -150,3 +150,6 @@ CORS_ALLOW_HEADERS = (
 )
 
 APPEND_SLASH = False
+
+# date form
+DATE_INPUT_FORMATS = ['%Y-%m-%d']
