@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'corsheaders',
+    'Actors',
 ]
 
 MIDDLEWARE = [
@@ -149,3 +150,6 @@ CORS_ALLOW_HEADERS = (
 )
 
 APPEND_SLASH = False
+
+# date form
+DATE_INPUT_FORMATS = ['%Y-%m-%d']
